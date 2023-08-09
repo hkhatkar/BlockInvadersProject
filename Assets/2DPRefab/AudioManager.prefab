@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4173533686877368684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263234036392334095}
+  - component: {fileID: 3423979993273969725}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263234036392334095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4173533686877368684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.8039749, y: 3.9336925, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3423979993273969725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4173533686877368684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c2b00acdb0028478daf643cace8f9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: player_shoot
+    clip: {fileID: 8300000, guid: 82962e1e93f29044a808e7760fb26248, type: 3}
+    volume: 0.72
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: enemy_shoot
+    clip: {fileID: 8300000, guid: 82962e1e93f29044a808e7760fb26248, type: 3}
+    volume: 0.699
+    pitch: 0.33
+    loop: 0
+    source: {fileID: 0}
+  - name: enemy_die
+    clip: {fileID: 8300000, guid: a2365998f53b00344b6fba288cab2c0f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemy_hurt
+    clip: {fileID: 8300000, guid: a2365998f53b00344b6fba288cab2c0f, type: 3}
+    volume: 0.63
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: missile_launch
+    clip: {fileID: 8300000, guid: 0d1f2519363642f49bcc38d467d95c0d, type: 3}
+    volume: 0.904
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: player_hurt
+    clip: {fileID: 8300000, guid: a967fcf0a8362304d9718a75bfc630a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: player_die
+    clip: {fileID: 8300000, guid: 3f823b154418ec347bc1f662ec8d2377, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: a66f7dcc87f968b4b8cbe8d7b4ac104d, type: 3}
+    volume: 0.165
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: get_coin
+    clip: {fileID: 8300000, guid: 878dc435548186a478147cbb73328b62, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: blocked
+    clip: {fileID: 8300000, guid: 0498c1e1e6d68ce4fa5f7817dd0000cd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: shield_break
+    clip: {fileID: 8300000, guid: 0498c1e1e6d68ce4fa5f7817dd0000cd, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: round_victory
+    clip: {fileID: 8300000, guid: e69bbef504d31c14e9c073a9f9cf0378, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: buy
+    clip: {fileID: 8300000, guid: e69bbef504d31c14e9c073a9f9cf0378, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: menu_click
+    clip: {fileID: 8300000, guid: 95d1dfe635a19c04bbb825d489d94738, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
